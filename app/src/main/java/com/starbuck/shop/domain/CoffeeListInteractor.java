@@ -21,7 +21,7 @@ public class CoffeeListInteractor {
 
       @Override public void onFailure() {
         coffeesService.get(new CoffeesService.Callback() {
-          @Override public void onSucess(List<Coffee> coffees) {
+          @Override public void onSuccess(List<Coffee> coffees) {
             callback.onSuccess(coffees);
             coffeesCache.set(coffees);
           }

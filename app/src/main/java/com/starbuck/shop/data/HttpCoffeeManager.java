@@ -1,4 +1,4 @@
-package com.starbuck.shop;
+package com.starbuck.shop.data;
 import android.app.Activity;
 import com.starbuck.shop.domain.Coffee;
 import com.starbuck.shop.domain.CoffeesService;
@@ -27,7 +27,7 @@ public class HttpCoffeeManager implements CoffeesService {
         }
         activity.runOnUiThread(new Runnable() {
           @Override public void run() {
-            callback.onSucess(coffees);
+            callback.onSuccess(coffees);
           }
         });
       }

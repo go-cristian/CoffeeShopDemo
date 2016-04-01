@@ -1,7 +1,10 @@
-package com.starbuck.shop;
+package com.starbuck.shop.ui;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import com.starbuck.shop.CoffeeApp;
+import com.starbuck.shop.data.HttpCoffeeManager;
+import com.starbuck.shop.R;
 import com.starbuck.shop.domain.Coffee;
 import com.starbuck.shop.domain.CoffeeListInteractor;
 import java.util.List;

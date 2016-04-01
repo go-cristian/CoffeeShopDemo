@@ -1,4 +1,4 @@
-package com.starbuck.shop;
+package com.starbuck.shop.ui;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.os.Build;
@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import com.squareup.picasso.Picasso;
+import com.starbuck.shop.R;
 import com.starbuck.shop.domain.Coffee;
 import java.util.List;
 

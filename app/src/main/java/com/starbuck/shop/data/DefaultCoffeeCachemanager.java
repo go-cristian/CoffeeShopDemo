@@ -1,4 +1,4 @@
-package com.starbuck.shop;
+package com.starbuck.shop.data;
 import com.starbuck.shop.domain.Coffee;
 import com.starbuck.shop.domain.CoffeesCache;
 import java.util.List;

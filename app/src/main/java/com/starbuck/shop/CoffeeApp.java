@@ -1,5 +1,6 @@
 package com.starbuck.shop;
 import android.app.Application;
+import com.starbuck.shop.data.DefaultCoffeeCachemanager;
 
 /**
  * Created by iyubinest on 3/30/16.

@@ -8,7 +8,7 @@ public interface CoffeesService {
   void get(Callback callback);
 
   public interface Callback {
-    void onSucess(List<Coffee> coffees);
+    void onSuccess(List<Coffee> coffees);
 
     void onFailure();
   }
